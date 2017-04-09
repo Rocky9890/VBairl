@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+    <h1>Welcome to Smart Airline</h1>
+	
+    <div id="login">
+        <form action="login.php" method="post">
+	
+        <header>
+            <img class="img-right" src="img/login1.png"
+                 alt="lock" width="140" height="140" />
+          
+        </header>
+          
+           <ul>
+               <b> User Name </b>
+                <p><input type="text" id="lid" name="username" placeholder="Yourname@gmail.com" required></p>
+                <b>Password</b>
+                <p><input type="password" id="paswd" name="password" placeholder="password" required></p>
+
+                <button id="myBtn">LOGIN</button>
+                <button type="Reset" id="reset">RESET</button>
+                   <!-- <li>
+				<b>New User:<b><a href="register.php">Register Here</a>
+					</li>  -->
+					 <p class="message">Not registered? <a href="register.php">Create an account</a></p>
+</ul>					
+      
+    </div>
+</body>
+</html>	

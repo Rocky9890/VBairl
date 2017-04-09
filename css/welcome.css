@@ -1,0 +1,39 @@
+﻿
+ nav #top-menu {
+    width: 200%;
+    height: 33px;
+    background-color: #531;
+    margin: 20px;
+    padding: 2em;
+}
+ 
+#top-menu ul {
+    display: block;
+    list-style-type: none;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#top-menu ul li {
+    margin: 0;
+    padding: 0;
+	width: 80%;
+}
+#top-menu ul li a {
+    display: block;
+    float: left;
+    max-height: 25px;
+    width: 100px;
+    margin: 0;
+	
+    padding: 2px 0;
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #531;
+    text-decoration: none;
+    color: #da1;
+    border-bottom: #531 solid 2px;
+}
+#top-menu ul li a:hover { border-bottom: #00ffff solid 4px; }
